@@ -1,6 +1,6 @@
 # His Majesty's Deck
 
-This is a WIP Tarot-Deck Discord bot, specifically tailored towards playing His Majesty The Worm in discord channels. It automatically separates the deck into a GM's Deck with the Major Arcana (minus The Fool) and a Players' Deck with the Minor Arcana (plus The Fool), as per the requirements of the game's rules.
+This is a WIP Tarot-Deck Discord bot based off [bastianleicht's DiscordJSBot Base](https://github.com/bastianleicht/DiscordJS-Bot-Base) specifically tailored towards playing His Majesty The Worm in discord channels. It automatically separates the deck into a GM's Deck with the Major Arcana (minus The Fool) and a Players' Deck with the Minor Arcana (plus The Fool), as per the requirements of the game's rules.
 
 ## Installation
 
