@@ -35,7 +35,7 @@ Your can get the Token from the Discord Developer Page. [Link](https://discord.c
 - /initiative (card) - a player submits one of the minor arcana in their hand  to use as their initiative card
 - /monster-initiative (card) (monster_name) - the GM submits one of the major arcana in their hand to use as the initiative card for a certain monster.
 - /take-turns - reveals which player/NPC goes next & their initiative card, and then prompts them to take a turn.
-- /reset-intiative - discards all of the initiative cards to reset the round
+- /next-round - discards all of the initiative cards & held cards (except for placed facedown cards) to reset the round
 - /reveal-initiative (monster_name) - reveals your own initiative card (or the initiative card of one of your monsters), even if it is not your turn yet.
   
 
