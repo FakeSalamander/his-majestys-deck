@@ -17,10 +17,25 @@ Your can get the Token from the Discord Developer Page. [Link](https://discord.c
 
 - create card and deck objects.
 - store deck information on a per-channel basis.
+
 - /shuffle - shuffles both the GM and Player decks, and initializes them if ran for the first time.
-- /draw-player - draws a card from the Player deck and displays it to everyone
-- /draw-gm - draws a card from the GM's deck and displays it to everyone
-- /discards - display the top card of both of the discard piles
+- /draw-player - draws a card from the Player deck and displays it to everyone before sending it to the Player discard pile.
+- /draw-gm - draws a card from the GM's deck and displays it to everyone before sending it to the GM discard pile.
+- /discards - display the top card of both of the discard piles.
+
+- /hold-player - draws 4 cards from the Player deck, then discreetly places then in that player's hand.
+- /hold-gm n - draws n number of cards from the GM deck, then discreetly places them in that player's hand
+- /peek - the bot DMs that player a list of their held cards
+
+- /play (card) - openly displays one of the cards in your hand, then discards it. Used for overt actions like attack, etc
+- /place-facedown (card) - removes one card from your hand and places it into your "faceodwn" slot. Used for actions like Dodge or Aid Another.
+- /reveal-facedown (card) - openly reveals your facedown card, then discards it.
+
+- /initiative (card) - a player submits one of the minor arcana in their hand  to use as their initiative card
+- /monster-initiative (card) (monster_name) - the GM submits one of the major arcana in their hand to use as the initiative card for a certain monster.
+- /take-turns - reveals which player/NPC goes next & their initiative card, and then prompts them to take a turn.
+- /reset-intiative - discards all of the initiative cards to reset the round
+- /reveal-initiative (monster_name) - reveals your own initiative card (or the initiative card of one of your monsters), even if it is not your turn yet.
   
 
 ## Links you might need
