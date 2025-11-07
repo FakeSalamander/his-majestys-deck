@@ -28,8 +28,9 @@ Your can get the Token from the Discord Developer Page. [Link](https://discord.c
 - /peek - the bot DMs that player a list of their held cards
 
 - /play (card) - openly displays one of the cards in your hand, then discards it. Used for overt actions like attack, etc
-- /place-facedown (card) - removes one card from your hand and places it into your "faceodwn" slot. Used for actions like Dodge or Aid Another.
-- /reveal-facedown (card) - openly reveals your facedown card, then discards it.
+- /place-facedown (card) (your turn?) - removes one card from your hand and places it into your "faceodwn" slot. Used for actions like Dodge or Aid Another.
+- /reveal-facedown - openly reveals your facedown card, then discards it.
+- /discard-faceodwn - discards your facedown card.
 
 - /initiative (card) - a player submits one of the minor arcana in their hand  to use as their initiative card
 - /monster-initiative (card) (monster_name) - the GM submits one of the major arcana in their hand to use as the initiative card for a certain monster.
